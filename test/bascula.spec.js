@@ -1,11 +1,13 @@
+const chai = require('chai');
+const mocha = require('mocha');  
 const assert = require('chai').assert;
 const expect = require('chai').expect;
 const should = require('chai').should();
 
-const {Bascula} = require('./src/Bascula.js');
+const {Bascula} = require('../src/Bascula.js');
 
 describe('Main Suite -- Pruebas Unitarias Clase Bascula',function(){
-    
+
     describe('Constructor Báscula -- Test Case 1' ,function(){
         const objetoPrueba=new Bascula();
         it('obtenerNumeroAnotaciones() == 0',function(){
