@@ -1,4 +1,4 @@
-class Paciente {
+ class Paciente {
     constructor(nombre, apellidos, fechaNacimiento) {
       this.nombre = nombre;
       this.apellidos = apellidos;
@@ -57,4 +57,5 @@ class Paciente {
       }
     }
   }
+  module.exports = { Paciente };
   

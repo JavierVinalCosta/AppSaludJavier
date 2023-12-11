@@ -1,4 +1,4 @@
-class Báscula {
+export class Bascula {
     constructor() {}
   
     obtenerNumeroAnotaciones() {
@@ -56,6 +56,7 @@ class Báscula {
       }
     }
   }
+  module.exports = { Bascula };
   
 
   
